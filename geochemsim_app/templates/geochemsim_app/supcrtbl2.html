@@ -211,7 +211,7 @@ $('document').ready(function() {
     // types in 'Reaction' textarea, but selecting an autocomplete option doesn't
     // trigger an 'input' event, so we need to manually update the value of the
     // experiment input when an autocomplete option is selected.
-    document.getElementById('experiment-editor').vueComponent.updateInputValue('Reaction', e.target.value);
+    document.getElementById('experiment-editor').vueComponent.updateInputValue('Reaction', e);
   });
 });
 
